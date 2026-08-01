@@ -1,0 +1,14 @@
+{
+  "C01": {
+    "name": "3-toss-result/C01-StatusBar",
+    "shapeId": "b7cdc91d-61ba-80ad-8008-6a58f92792c3",
+    "componentId": "b7cdc91d-61ba-80ad-8008-6a58f9377bd0",
+    "status": "ok"
+  },
+  "C02": {
+    "name": "3-toss-result/C02-TopBar",
+    "shapeId": "b7cdc91d-61ba-80ad-8008-6a591b0deebc",
+    "componentId": "b7cdc91d-61ba-80ad-8008-6a591b2b699f",
+    "status": "ok"
+  }
+}

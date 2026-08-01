@@ -1,0 +1,5 @@
+{
+  "C07": {"name": "3-toss-result/C07-FilterChip", "shapeId": "b7cdc91d-61ba-80ad-8008-6a59172a018a", "componentId": "b7cdc91d-61ba-80ad-8008-6a591739b2ac", "status": "ok"},
+  "C20": {"name": "3-toss-result/C20-SkeletonRow", "shapeId": "b7cdc91d-61ba-80ad-8008-6a591d1d4150", "componentId": "b7cdc91d-61ba-80ad-8008-6a591d2b3399", "status": "ok"},
+  "C10": {"name": "3-toss-result/C10-SavedDestCard", "shapeId": "b7cdc91d-61ba-80ad-8008-6a5922be09f8", "componentId": "b7cdc91d-61ba-80ad-8008-6a5922dd1f4e", "status": "ok"}
+}

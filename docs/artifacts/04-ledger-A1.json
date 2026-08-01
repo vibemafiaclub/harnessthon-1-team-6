@@ -1,0 +1,7 @@
+{
+  "C08": {"name": "3-toss-result/C08-Badge", "shapeId": "b7cdc91d-61ba-80ad-8008-6a58d5f76ab1", "componentId": "b7cdc91d-61ba-80ad-8008-6a58f111f260", "status": "ok", "note": "createComponent는 배열 인자 필요 — createComponent([board])로 등록. export_shape 직접 호출은 'http error'로 계속 실패하나 C05·C09·C11·C17 인스턴스 렌더로 정상 확인"},
+  "C05": {"name": "3-toss-result/C05-FlightRow", "shapeId": "b7cdc91d-61ba-80ad-8008-6a5912d67d6a", "componentId": "b7cdc91d-61ba-80ad-8008-6a591311b9db", "status": "ok"},
+  "C09": {"name": "3-toss-result/C09-DealCard", "shapeId": "b7cdc91d-61ba-80ad-8008-6a591f7533e9", "componentId": "b7cdc91d-61ba-80ad-8008-6a591f92a4ae", "status": "ok"},
+  "C11": {"name": "3-toss-result/C11-TourCard", "shapeId": "b7cdc91d-61ba-80ad-8008-6a59300df700", "componentId": "b7cdc91d-61ba-80ad-8008-6a59302c43a7", "status": "ok"},
+  "C17": {"name": "3-toss-result/C17-CompareCard", "shapeId": "b7cdc91d-61ba-80ad-8008-6a593b68b55e", "componentId": "b7cdc91d-61ba-80ad-8008-6a593b854305", "status": "ok"}
+}

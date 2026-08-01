@@ -1,0 +1,120 @@
+{
+  "C08": {
+    "name": "3-toss-result/C08-Badge",
+    "shapeId": "b7cdc91d-61ba-80ad-8008-6a58d5f76ab1",
+    "componentId": "b7cdc91d-61ba-80ad-8008-6a58f111f260",
+    "status": "ok",
+    "note": "createComponent는 배열 인자 필요 — createComponent([board])로 등록"
+  },
+  "C05": {
+    "name": "3-toss-result/C05-FlightRow",
+    "shapeId": "b7cdc91d-61ba-80ad-8008-6a5912d67d6a",
+    "componentId": "b7cdc91d-61ba-80ad-8008-6a591311b9db",
+    "status": "ok"
+  },
+  "C09": {
+    "name": "3-toss-result/C09-DealCard",
+    "shapeId": "b7cdc91d-61ba-80ad-8008-6a591f7533e9",
+    "componentId": "b7cdc91d-61ba-80ad-8008-6a591f92a4ae",
+    "status": "ok"
+  },
+  "C11": {
+    "name": "3-toss-result/C11-TourCard",
+    "shapeId": "b7cdc91d-61ba-80ad-8008-6a59300df700",
+    "componentId": "b7cdc91d-61ba-80ad-8008-6a59302c43a7",
+    "status": "ok"
+  },
+  "C17": {
+    "name": "3-toss-result/C17-CompareCard",
+    "shapeId": "b7cdc91d-61ba-80ad-8008-6a593b68b55e",
+    "componentId": "b7cdc91d-61ba-80ad-8008-6a593b854305",
+    "status": "ok"
+  },
+  "C13": {
+    "name": "3-toss-result/C13-PrimaryButton-retry2",
+    "shapeId": "b7cdc91d-61ba-80ad-8008-6a59226ccf8a",
+    "componentId": "b7cdc91d-61ba-80ad-8008-6a59227c39f5",
+    "status": "ok"
+  },
+  "C19": {
+    "name": "3-toss-result/C19-EmptyState",
+    "shapeId": "b7cdc91d-61ba-80ad-8008-6a59494dce2e",
+    "componentId": "b7cdc91d-61ba-80ad-8008-6a5949726c52",
+    "status": "ok",
+    "note": "라이브러리 등록명은 프리픽스 탈락(C19-EmptyState) — 조회는 componentId로 할 것"
+  },
+  "C14": {
+    "name": "3-toss-result/C14-SheetFrame",
+    "shapeId": "b7cdc91d-61ba-80ad-8008-6a595cf253b8",
+    "componentId": "b7cdc91d-61ba-80ad-8008-6a595d330e0e",
+    "status": "ok",
+    "note": "인스턴스 사용 시 detach 후 content 채움 — content-placeholder는 hidden=true 처리(§C14 규약)"
+  },
+  "C01": {
+    "name": "3-toss-result/C01-StatusBar",
+    "shapeId": "b7cdc91d-61ba-80ad-8008-6a58f92792c3",
+    "componentId": "b7cdc91d-61ba-80ad-8008-6a58f9377bd0",
+    "status": "ok"
+  },
+  "C02": {
+    "name": "3-toss-result/C02-TopBar",
+    "shapeId": "b7cdc91d-61ba-80ad-8008-6a591b0deebc",
+    "componentId": "b7cdc91d-61ba-80ad-8008-6a591b2b699f",
+    "status": "ok"
+  },
+  "C03": {
+    "name": "3-toss-result/C03-TabBar",
+    "shapeId": "b7cdc91d-61ba-80ad-8008-6a5900078618",
+    "componentId": "b7cdc91d-61ba-80ad-8008-6a5900471bc3",
+    "status": "ok"
+  },
+  "C04": {
+    "name": "3-toss-result/C04-SectionHeader",
+    "shapeId": "b7cdc91d-61ba-80ad-8008-6a5906828975",
+    "componentId": "b7cdc91d-61ba-80ad-8008-6a5906924c77",
+    "status": "ok"
+  },
+  "C06": {
+    "name": "3-toss-result/C06-DatePriceChip",
+    "shapeId": "b7cdc91d-61ba-80ad-8008-6a590c0a4af7",
+    "componentId": "b7cdc91d-61ba-80ad-8008-6a590c1fd145",
+    "status": "ok"
+  },
+  "C07": {
+    "name": "3-toss-result/C07-FilterChip",
+    "shapeId": "b7cdc91d-61ba-80ad-8008-6a59172a018a",
+    "componentId": "b7cdc91d-61ba-80ad-8008-6a591739b2ac",
+    "status": "ok"
+  },
+  "C20": {
+    "name": "3-toss-result/C20-SkeletonRow",
+    "shapeId": "b7cdc91d-61ba-80ad-8008-6a591d1d4150",
+    "componentId": "b7cdc91d-61ba-80ad-8008-6a591d2b3399",
+    "status": "ok"
+  },
+  "C10": {
+    "name": "3-toss-result/C10-SavedDestCard",
+    "shapeId": "b7cdc91d-61ba-80ad-8008-6a5922be09f8",
+    "componentId": "b7cdc91d-61ba-80ad-8008-6a5922dd1f4e",
+    "status": "ok"
+  },
+  "C15": {
+    "name": "3-toss-result/C15-FareOptionCard",
+    "shapeId": "b7cdc91d-61ba-80ad-8008-6a58fb6b7897",
+    "componentId": "b7cdc91d-61ba-80ad-8008-6a5912af8a9b",
+    "status": "ok",
+    "note": "03 코드의 createComponent(board)는 'not ISeqable' 에러 — createComponent([board]) 배열 형태로 등록해야 함"
+  },
+  "C16": {
+    "name": "3-toss-result/C16-FilterOptionRow",
+    "shapeId": "b7cdc91d-61ba-80ad-8008-6a5920402753",
+    "componentId": "b7cdc91d-61ba-80ad-8008-6a59206280ef",
+    "status": "ok"
+  },
+  "C18": {
+    "name": "3-toss-result/C18-Toast",
+    "shapeId": "b7cdc91d-61ba-80ad-8008-6a59247a94e1",
+    "componentId": "b7cdc91d-61ba-80ad-8008-6a59248dbc20",
+    "status": "ok"
+  }
+}

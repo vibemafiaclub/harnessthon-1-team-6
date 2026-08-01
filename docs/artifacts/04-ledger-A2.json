@@ -1,0 +1,6 @@
+{
+  "C13": {"name": "3-toss-result/C13-PrimaryButton", "shapeId": "b7cdc91d-61ba-80ad-8008-6a58fe1a5c15", "status": "discarded", "note": "createComponent(board) 단일 인자 실패([object ShapeProxy] is not ISeqable) — 배열 인자 필요. 잔여 board는 hidden=true 처리"},
+  "C13-retry2": {"name": "3-toss-result/C13-PrimaryButton-retry2", "shapeId": "b7cdc91d-61ba-80ad-8008-6a59226ccf8a", "componentId": "b7cdc91d-61ba-80ad-8008-6a59227c39f5", "status": "ok", "note": "export 확인 완료. B단계 인스턴스 생성 시 이 componentId 사용"},
+  "C19": {"name": "3-toss-result/C19-EmptyState", "shapeId": "b7cdc91d-61ba-80ad-8008-6a59494dce2e", "componentId": "b7cdc91d-61ba-80ad-8008-6a5949726c52", "status": "ok", "note": "export 확인 완료(title은 흰 글자라 투명배경 PNG에선 안 보이나 존재함). 라이브러리 등록명은 페이지 프리픽스 탈락(C19-EmptyState) — 조회는 componentId로"},
+  "C14": {"name": "3-toss-result/C14-SheetFrame", "shapeId": "b7cdc91d-61ba-80ad-8008-6a595cf253b8", "componentId": "b7cdc91d-61ba-80ad-8008-6a595d330e0e", "status": "ok", "note": "export 확인 완료. grabber borderRadius 999→2 교정(999는 export http error 유발). 사용 규약: instance() 후 detach, content 채우고 content-placeholder는 hidden=true(§C14)"}
+}

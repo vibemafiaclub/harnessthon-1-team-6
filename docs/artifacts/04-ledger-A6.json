@@ -1,0 +1,5 @@
+{
+  "C15": {"name": "3-toss-result/C15-FareOptionCard", "shapeId": "b7cdc91d-61ba-80ad-8008-6a58fb6b7897", "componentId": "b7cdc91d-61ba-80ad-8008-6a5912af8a9b", "status": "ok", "note": "03 코드의 createComponent(board)는 'not ISeqable' 에러 — createComponent([board]) 배열 형태로 등록해야 함"},
+  "C16": {"name": "3-toss-result/C16-FilterOptionRow", "shapeId": "b7cdc91d-61ba-80ad-8008-6a5920402753", "componentId": "b7cdc91d-61ba-80ad-8008-6a59206280ef", "status": "ok"},
+  "C18": {"name": "3-toss-result/C18-Toast", "shapeId": "b7cdc91d-61ba-80ad-8008-6a59247a94e1", "componentId": "b7cdc91d-61ba-80ad-8008-6a59248dbc20", "status": "ok"}
+}

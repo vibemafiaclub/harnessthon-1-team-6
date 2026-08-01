@@ -1,0 +1,30 @@
+{
+  "S01": {
+    "boardId": "b7cdc91d-61ba-80ad-8008-6a5a6af7c12a",
+    "name": "New/Home",
+    "instances": [
+      "C01 StatusBar ×1",
+      "C02 TopBar(title형: left-icon·right-icon hidden) ×1",
+      "C13 PrimaryButton(항공권 검색하기, SearchEntryCard 내) ×1",
+      "C04 SectionHeader ×4 (예정된 여정 action hidden / 특가 항공권 / 마감 임박 / 담아둔 목적지)",
+      "C11 TourCard ×3 (rail-tours, 실사진 fillImage)",
+      "C09 DealCard ×6 (rail-deals 3 + rail-deadline 3, 실사진 fillImage)",
+      "C10 SavedDestCard ×3 (1건 trend=same delta textSub)",
+      "C03 TabBar ×1 (홈·항공권·투어·체험·찜·전체, tab-1 활성)"
+    ],
+    "screenUnique": ["SearchEntryCard", "TripCard", "rail-*", "saved-list", "spacer-*"],
+    "export": "ok"
+  },
+  "S02": {
+    "boardId": "b7cdc91d-61ba-80ad-8008-6a5b10d6be9c",
+    "name": "New/Home-Empty",
+    "clonedFrom": "S01",
+    "instances": [
+      "S01 clone 유지분: C01, C02, C13(검색 CTA), C04×4, C09×6, C03",
+      "C19 EmptyState ×2 — EmptyState-trip(아직 예정된 여정이 없어요, cta hidden) / EmptyState-saved(아직 담아둔 목적지가 없어요, cta '특가 항공권 보기')"
+    ],
+    "removedInClone": ["TripCard", "spacer-trip-rail", "rail-tours", "saved-list"],
+    "export": "ok",
+    "note": "clone 내 shape.remove()는 화면 레벨 자식(인스턴스 포함)에 문제 없이 동작. export는 반영 지연이 있어 재-export 필요할 수 있음"
+  }
+}

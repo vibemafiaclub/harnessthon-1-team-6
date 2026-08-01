@@ -1,0 +1,33 @@
+{
+  "S06": {
+    "boardId": "b7cdc91d-61ba-80ad-8008-6a5c16508f17",
+    "name": "New/Results-FilterSheet",
+    "x": 3000,
+    "sheetId": "b7cdc91d-61ba-80ad-8008-6a5c16742f02",
+    "instances": "C14(detach)×1, C16×4(row-direct 토글·row-time·row-airline·row-sort), C13(cta '적용하기')",
+    "backdrop": "S03 clone(backdrop-results) opacity 0.35",
+    "export": "ok — 토글·값·CTA 확인, 시트 하단 앵커 y=401(h=443)",
+    "status": "ok"
+  },
+  "S07": {
+    "boardId": "b7cdc91d-61ba-80ad-8008-6a5c535c751a",
+    "name": "New/Results-FareSheet",
+    "x": 3500,
+    "sheetId": "b7cdc91d-61ba-80ad-8008-6a5c5381cf35",
+    "instances": "C14(detach)×1, C15×3(fare-light·fare-standard selected·fare-flex), C13(cta '이 운임으로 선택하기'), 화면 고유 fare-flight-summary",
+    "backdrop": "S03 clone(backdrop-results) opacity 0.35",
+    "export": "ok — 1차 export http error 후 재-export 성공(알려진 함정), 시트 y=217(h=627)",
+    "status": "ok"
+  },
+  "S08": {
+    "boardId": "b7cdc91d-61ba-80ad-8008-6a5c7eec7018",
+    "name": "New/Results-CompareSheet",
+    "x": 4000,
+    "sheetId": "b7cdc91d-61ba-80ad-8008-6a5c7f147053",
+    "instances": "C14(detach)×1, C17×3(compare-1·compare-2·compare-3 closed: 텍스트 textSub+뱃지 '마감' danger), C18×1(toast-closed-notice tone=warning), C13(cta '이 항공편으로 결정하기'), 화면 고유 compare-caption·compare-columns",
+    "backdrop": "S03 clone(backdrop-results) opacity 0.35",
+    "export": "ok — 1차 export가 stale 렌더(오버라이드 미반영으로 보임), 재-export로 정상 확인. 시트 y=390(h=454)",
+    "note": "02의 '비교 항목 행 라벨 열'은 3열(110×3+gap 20=350)이 시트 내폭을 꽉 채워 라벨 열 자리가 없어 캡션 1줄('가격·소요·경유를 나란히 봐요')로 대체",
+    "status": "ok"
+  }
+}
